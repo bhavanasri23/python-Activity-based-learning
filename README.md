@@ -1,11 +1,11 @@
- # Python Activity Based Learning - Activity 1
+# Python Activity Based Learning - Activity 1
+
 **Name:** Bhavana Sri - 2600308
 **Branch:** CSE
 **Section:** 5
 **Repository:** python-Activity-based-learing
 
-
-### Overview
+ ###Overview
 This repository contains 10 Python case studies selected from 50 official case studies for Activity Based Learning.
 
 ### Selected 10 Case Studies
