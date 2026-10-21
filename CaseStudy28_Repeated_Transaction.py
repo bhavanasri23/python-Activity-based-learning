@@ -1,3 +1,6 @@
+BLUE = "\033[94m"
+RESET = "\033[0m"
+print(BLUE)
 # Topic 28 - Repeated Transaction - 2600308
 print("=== Topic 28 ===")
 ids = ["TX101", "TX102", "TX101", "TX103", "TX102"]
@@ -11,3 +14,4 @@ print(f"Duplicate IDs: {suspicious}")
 for i in range(len(amounts)):
     if amounts[i] > 1000:
         print(f"Threshold Violation: {ids[i]} - {amounts[i]}")
+print(RESET)
