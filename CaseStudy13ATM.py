@@ -1,3 +1,6 @@
+BLUE = "\033[94m"
+RESET = "\033[0m"
+print(BLUE)
 # Topic 13 - ATM Simulation - 2600308
 print("=== Topic 13 ===")
 balance = 5000
@@ -13,3 +16,4 @@ for ttype, amt in transactions:
             balance -= amt
             print(f"Withdraw {amt} -> Balance {balance}")
 print(f"Final Balance: {balance}")
+print(RESET)
