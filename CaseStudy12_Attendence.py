@@ -1,6 +1,3 @@
-BLUE = "\033[94m"
-RESET = "\033[0m"
-print(BLUE)
 # Topic 12 - Attendance Recovery - 2600308
 print("=== Topic 12 ===")
 present = 35
@@ -15,5 +12,4 @@ while percent < required:
     total += 1
     percent = present/total*100
     need += 1
-print(f"Need {need} more classes to reach 75%")
-print(RESET)
+print(f"Need {need} more classes to reach 75%"
