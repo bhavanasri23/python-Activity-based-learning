@@ -1,3 +1,6 @@
+BLUE = "\033[94m"
+RESET = "\033[0m"
+print(BLUE)
 # Topic 29 - Password Validation - 2600308
 print("=== Topic 29 ===")
 passwords = ["abc", "Hello123", "Hello@123", "helloworld"]
@@ -14,3 +17,4 @@ for pwd in passwords:
     if not has_digit: print("Fail: Need Digit")
     elif not has_upper: print("Fail: Need Uppercase")
     else: print("Pass: Valid Password")
+print(RESET)
