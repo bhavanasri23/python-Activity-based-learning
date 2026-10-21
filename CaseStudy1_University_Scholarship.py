@@ -1,6 +1,3 @@
-BLUE = "\033[94m"
-RESET = "\033[0m"
-print(BLUE)
 # University Scholarship Allocation System
 # Student: Bhavana Sri - 2600308
 # Case Study 1
@@ -37,4 +34,4 @@ rank = 1
 for name, agg, attend in eligible:
     print(f"Rank {rank}: {name} - {agg}%, Attendance {attend}%")
     rank += 1
-print(RESET)
+
